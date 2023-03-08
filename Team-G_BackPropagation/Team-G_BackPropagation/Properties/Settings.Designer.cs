@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BackPropagation.Properties
+namespace Team_G_BackPropagation.Properties
 {
 
 

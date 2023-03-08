@@ -1,4 +1,4 @@
-﻿namespace BackPropagation
+﻿namespace Team_G_BackPropagation
 {
     partial class Form1
     {

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BackPropagation
+namespace Team_G_BackPropagation
 {
     public partial class Form1 : Form
     {

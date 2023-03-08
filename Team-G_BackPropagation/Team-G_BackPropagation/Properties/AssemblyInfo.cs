@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BackPropagation")]
+[assembly: AssemblyTitle("Team-G_BackPropagation")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BackPropagation")]
+[assembly: AssemblyProduct("Team-G_BackPropagation")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f9384e44-7efb-4581-a424-26e5d1fad4b8")]
+[assembly: Guid("cadd8084-f615-4a56-ab2e-bbe8e9525bc6")]
 
 // Version information for an assembly consists of the following four values:
 //

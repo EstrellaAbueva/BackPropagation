@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BackPropagation
+namespace Team_G_BackPropagation
 {
     internal static class Program
     {

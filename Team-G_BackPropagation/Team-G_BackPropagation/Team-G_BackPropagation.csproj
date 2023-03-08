@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F9384E44-7EFB-4581-A424-26E5D1FAD4B8}</ProjectGuid>
+    <ProjectGuid>{CADD8084-F615-4A56-AB2E-BBE8E9525BC6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>BackPropagation</RootNamespace>
-    <AssemblyName>BackPropagation</AssemblyName>
+    <RootNamespace>Team_G_BackPropagation</RootNamespace>
+    <AssemblyName>Team-G_BackPropagation</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
