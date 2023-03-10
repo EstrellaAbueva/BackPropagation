@@ -31,7 +31,7 @@
             this.create = new System.Windows.Forms.Button();
             this.train = new System.Windows.Forms.Button();
             this.test = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.epochs = new System.Windows.Forms.TextBox();
             this.bedroom = new System.Windows.Forms.TextBox();
             this.bathroom = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -46,6 +46,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.clear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // create
@@ -56,6 +57,7 @@
             this.create.TabIndex = 0;
             this.create.Text = "Create Model";
             this.create.UseVisualStyleBackColor = true;
+            this.create.Click += new System.EventHandler(this.create_Click);
             // 
             // train
             // 
@@ -75,12 +77,12 @@
             this.test.Text = "Test";
             this.test.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // epochs
             // 
-            this.textBox1.Location = new System.Drawing.Point(164, 121);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(163, 20);
-            this.textBox1.TabIndex = 3;
+            this.epochs.Location = new System.Drawing.Point(164, 121);
+            this.epochs.Name = "epochs";
+            this.epochs.Size = new System.Drawing.Size(163, 20);
+            this.epochs.TabIndex = 3;
             // 
             // bedroom
             // 
@@ -100,7 +102,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(85, 21);
+            this.label1.Location = new System.Drawing.Point(70, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(242, 20);
             this.label1.TabIndex = 6;
@@ -198,11 +200,22 @@
             this.label8.TabIndex = 17;
             this.label8.Text = "Possible House Price:";
             // 
+            // clear
+            // 
+            this.clear.Location = new System.Drawing.Point(233, 465);
+            this.clear.Name = "clear";
+            this.clear.Size = new System.Drawing.Size(110, 41);
+            this.clear.TabIndex = 18;
+            this.clear.Text = "Clear";
+            this.clear.UseVisualStyleBackColor = true;
+            this.clear.Click += new System.EventHandler(this.clear_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(375, 459);
+            this.ClientSize = new System.Drawing.Size(375, 518);
+            this.Controls.Add(this.clear);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -217,7 +230,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bathroom);
             this.Controls.Add(this.bedroom);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.epochs);
             this.Controls.Add(this.test);
             this.Controls.Add(this.train);
             this.Controls.Add(this.create);
@@ -234,7 +247,7 @@
         private System.Windows.Forms.Button create;
         private System.Windows.Forms.Button train;
         private System.Windows.Forms.Button test;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox epochs;
         private System.Windows.Forms.TextBox bedroom;
         private System.Windows.Forms.TextBox bathroom;
         private System.Windows.Forms.Label label1;
@@ -249,6 +262,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button clear;
     }
 }
 
