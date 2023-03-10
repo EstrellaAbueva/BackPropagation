@@ -65,14 +65,6 @@ namespace Team_G_BackPropagation
                 nn.learn();
 
                 nn.setInputs(0, 3);
-                nn.setInputs(1, 2.5);
-                nn.setInputs(2, 1530);
-                nn.setInputs(3, 6000);
-                nn.setInputs(4, 4);
-                nn.setDesiredOutput(0, 265000);
-                nn.learn();
-
-                nn.setInputs(0, 3);
                 nn.setInputs(1, 3.5);
                 nn.setInputs(2, 3870);
                 nn.setInputs(3, 3819);
