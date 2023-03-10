@@ -85,20 +85,23 @@
             this.epochs.Name = "epochs";
             this.epochs.Size = new System.Drawing.Size(163, 20);
             this.epochs.TabIndex = 3;
+            this.epochs.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bedroom
             // 
-            this.bedroom.Location = new System.Drawing.Point(158, 207);
+            this.bedroom.Location = new System.Drawing.Point(164, 201);
             this.bedroom.Name = "bedroom";
-            this.bedroom.Size = new System.Drawing.Size(169, 20);
+            this.bedroom.Size = new System.Drawing.Size(163, 20);
             this.bedroom.TabIndex = 4;
+            this.bedroom.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bathroom
             // 
-            this.bathroom.Location = new System.Drawing.Point(158, 234);
+            this.bathroom.Location = new System.Drawing.Point(164, 228);
             this.bathroom.Name = "bathroom";
-            this.bathroom.Size = new System.Drawing.Size(169, 20);
+            this.bathroom.Size = new System.Drawing.Size(163, 20);
             this.bathroom.TabIndex = 5;
+            this.bathroom.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
@@ -131,29 +134,32 @@
             // 
             // living
             // 
-            this.living.Location = new System.Drawing.Point(158, 261);
+            this.living.Location = new System.Drawing.Point(164, 255);
             this.living.Name = "living";
-            this.living.Size = new System.Drawing.Size(169, 20);
+            this.living.Size = new System.Drawing.Size(163, 20);
             this.living.TabIndex = 9;
+            this.living.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lot
             // 
-            this.lot.Location = new System.Drawing.Point(158, 288);
+            this.lot.Location = new System.Drawing.Point(164, 282);
             this.lot.Name = "lot";
-            this.lot.Size = new System.Drawing.Size(169, 20);
+            this.lot.Size = new System.Drawing.Size(163, 20);
             this.lot.TabIndex = 10;
+            this.lot.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // condition
             // 
-            this.condition.Location = new System.Drawing.Point(158, 315);
+            this.condition.Location = new System.Drawing.Point(164, 309);
             this.condition.Name = "condition";
-            this.condition.Size = new System.Drawing.Size(169, 20);
+            this.condition.Size = new System.Drawing.Size(163, 20);
             this.condition.TabIndex = 11;
+            this.condition.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(40, 210);
+            this.label3.Location = new System.Drawing.Point(40, 204);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(106, 13);
             this.label3.TabIndex = 12;
@@ -162,7 +168,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(40, 237);
+            this.label4.Location = new System.Drawing.Point(40, 231);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(109, 13);
             this.label4.TabIndex = 13;
@@ -171,7 +177,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(40, 264);
+            this.label5.Location = new System.Drawing.Point(40, 258);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(63, 13);
             this.label5.TabIndex = 14;
@@ -180,7 +186,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(40, 291);
+            this.label6.Location = new System.Drawing.Point(40, 285);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(22, 13);
             this.label6.TabIndex = 15;
@@ -189,7 +195,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(40, 318);
+            this.label7.Location = new System.Drawing.Point(40, 312);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(51, 13);
             this.label7.TabIndex = 16;

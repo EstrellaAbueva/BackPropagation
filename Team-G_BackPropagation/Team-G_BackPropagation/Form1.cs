@@ -26,7 +26,7 @@ namespace Team_G_BackPropagation
 
         private void create_Click(object sender, EventArgs e)
         {
-            nn = new NeuralNet(5, 1, 1);
+            nn = new NeuralNet(5, 3, 1);
         }
 
         private void clear_Click(object sender, EventArgs e)
@@ -49,12 +49,12 @@ namespace Team_G_BackPropagation
             nn.setInputs(4, Convert.ToDouble(condition.Text));
             nn.run();
 
-            output.Text = "$ " + (nn.getOuputData(0) * 669361.5).ToString();
+            output.Text = "$ " + (nn.getOuputData(0)).ToString();
         }
 
         private void train_Click(object sender, EventArgs e)
         {
-            for(int i = 0; i < Convert.ToInt32(epochs.Text); i++)
+            for (int i = 0; i < Convert.ToInt32(epochs.Text); i++)
             {
                 nn.setInputs(0, 4);
                 nn.setInputs(1, 1);
