@@ -67,6 +67,7 @@
             this.train.TabIndex = 1;
             this.train.Text = "Train";
             this.train.UseVisualStyleBackColor = true;
+            this.train.Click += new System.EventHandler(this.train_Click);
             // 
             // test
             // 
@@ -76,6 +77,7 @@
             this.test.TabIndex = 2;
             this.test.Text = "Test";
             this.test.UseVisualStyleBackColor = true;
+            this.test.Click += new System.EventHandler(this.test_Click);
             // 
             // epochs
             // 
@@ -120,10 +122,12 @@
             // output
             // 
             this.output.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.output.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.output.Location = new System.Drawing.Point(47, 378);
             this.output.Name = "output";
             this.output.Size = new System.Drawing.Size(277, 61);
             this.output.TabIndex = 8;
+            this.output.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // living
             // 
@@ -194,9 +198,10 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(23, 356);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(110, 13);
+            this.label8.Size = new System.Drawing.Size(176, 18);
             this.label8.TabIndex = 17;
             this.label8.Text = "Possible House Price:";
             // 
