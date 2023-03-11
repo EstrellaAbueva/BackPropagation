@@ -155,6 +155,7 @@
             this.condition.Size = new System.Drawing.Size(163, 20);
             this.condition.TabIndex = 11;
             this.condition.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.condition.TextChanged += new System.EventHandler(this.condition_TextChanged);
             // 
             // label3
             // 

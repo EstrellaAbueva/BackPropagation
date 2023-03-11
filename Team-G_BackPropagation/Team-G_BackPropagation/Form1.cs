@@ -49,7 +49,7 @@ namespace Team_G_BackPropagation
             nn.setInputs(4, Convert.ToDouble(condition.Text));
             nn.run();
 
-            output.Text = "$ " + (nn.getOuputData(0)).ToString();
+            output.Text = "$ " + nn.getOuputData(0);
         }
 
         private void train_Click(object sender, EventArgs e)
@@ -137,6 +137,11 @@ namespace Team_G_BackPropagation
                 nn.setDesiredOutput(0, 499000);
                 nn.learn();
             }
+        }
+
+        private void condition_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
