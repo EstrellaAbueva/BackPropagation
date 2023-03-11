@@ -92,7 +92,7 @@ namespace Team_G_BackPropagation
             nn.setInputs(6, Convert.ToDouble(wrist.Text));
             nn.run();
 
-            output.Text = "$ " + (nn.getOuputData(0));
+            output.Text = (nn.getOuputData(0)).ToString();
         }
 
         private void clear_Click(object sender, EventArgs e)
