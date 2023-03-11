@@ -126,7 +126,7 @@
             // 
             this.output.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.output.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.output.Location = new System.Drawing.Point(47, 378);
+            this.output.Location = new System.Drawing.Point(40, 383);
             this.output.Name = "output";
             this.output.Size = new System.Drawing.Size(277, 61);
             this.output.TabIndex = 8;
