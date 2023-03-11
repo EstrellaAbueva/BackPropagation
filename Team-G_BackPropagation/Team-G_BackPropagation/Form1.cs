@@ -56,36 +56,85 @@ namespace Team_G_BackPropagation
         {
             for (int i = 0; i < Convert.ToInt32(epochs.Text); i++)
             {
+                //1
                 nn.setInputs(0, 4);
-                nn.setInputs(1, 1);
-                nn.setInputs(2, 2100);
-                nn.setInputs(3, 9200);
+                nn.setInputs(1, 3.5);
+                nn.setInputs(2, 4120);
+                nn.setInputs(3, 10380);
                 nn.setInputs(4, 3);
-                nn.setDesiredOutput(0, 211000);
+                nn.setDesiredOutput(0, 1146800);
                 nn.learn();
-
+                //2
                 nn.setInputs(0, 3);
-                nn.setInputs(1, 3.5);
-                nn.setInputs(2, 3870);
-                nn.setInputs(3, 3819);
-                nn.setInputs(4, 3);
-                nn.setDesiredOutput(0, 1440000);
+                nn.setInputs(1, 1.75);
+                nn.setInputs(2, 2150);
+                nn.setInputs(3, 4200);
+                nn.setInputs(4, 5);
+                nn.setDesiredOutput(0, 950000);
                 nn.learn();
-
+                //3
                 nn.setInputs(0, 4);
-                nn.setInputs(1, 3.5);
-                nn.setInputs(2, 2370);
-                nn.setInputs(3, 3302);
-                nn.setInputs(4, 3);
-                nn.setDesiredOutput(0, 800000);
+                nn.setInputs(1, 2);
+                nn.setInputs(2, 3380);
+                nn.setInputs(3, 90968);
+                nn.setInputs(4, 4);
+                nn.setDesiredOutput(0, 850000);
                 nn.learn();
-
-                nn.setInputs(0, 5);
-                nn.setInputs(1, 3.25);
-                nn.setInputs(2, 3230);
-                nn.setInputs(3, 3825);
+                //4
+                nn.setInputs(0, 4);
+                nn.setInputs(1, 2.5);
+                nn.setInputs(2, 2790);
+                nn.setInputs(3, 230868);
                 nn.setInputs(4, 3);
-                nn.setDesiredOutput(0, 1059500);
+                nn.setDesiredOutput(0, 599000);
+                nn.learn();
+                //5
+                nn.setInputs(0, 2);
+                nn.setInputs(1, 1);
+                nn.setInputs(2, 960);
+                nn.setInputs(3, 28717);
+                nn.setInputs(4, 4);
+                nn.setDesiredOutput(0, 255000);
+                nn.learn();
+                //6
+                nn.setInputs(0, 4);
+                nn.setInputs(1, 2.5);
+                nn.setInputs(2, 1560);
+                nn.setInputs(3, 4320);
+                nn.setInputs(4, 3);
+                nn.setDesiredOutput(0, 280000);
+                nn.learn();
+                //7
+                nn.setInputs(0, 4);
+                nn.setInputs(1, 2.25);
+                nn.setInputs(2, 2460);
+                nn.setInputs(3, 40635);
+                nn.setInputs(4, 5);
+                nn.setDesiredOutput(0, 715000);
+                nn.learn();
+                //8
+                nn.setInputs(0, 3);
+                nn.setInputs(1, 2.5);
+                nn.setInputs(2, 1740);
+                nn.setInputs(3, 3082);
+                nn.setInputs(4, 3);
+                nn.setDesiredOutput(0, 550000);
+                nn.learn();
+                //9
+                nn.setInputs(0, 3);
+                nn.setInputs(1, 2.75);
+                nn.setInputs(2, 3890);
+                nn.setInputs(3, 7216);
+                nn.setInputs(4, 3);
+                nn.setDesiredOutput(0, 1080000);
+                nn.learn();
+                //10
+                nn.setInputs(0, 3);
+                nn.setInputs(1, 1.75);
+                nn.setInputs(2, 1750);
+                nn.setInputs(3, 12345);
+                nn.setInputs(4, 4);
+                nn.setDesiredOutput(0, 499000);
                 nn.learn();
             }
         }
