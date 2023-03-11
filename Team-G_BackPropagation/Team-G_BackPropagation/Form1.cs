@@ -39,7 +39,7 @@ namespace Team_G_BackPropagation
                 nn.setInputs(5, 27.4);
                 nn.setInputs(6, 17.1);
                 nn.setDesiredOutput(0, 12.3);
-                nn.run();
+                nn.learn();
                 //2
                 nn.setInputs(0, 22);
                 nn.setInputs(1, 173.25);
@@ -49,7 +49,7 @@ namespace Team_G_BackPropagation
                 nn.setInputs(5, 28.9);
                 nn.setInputs(6, 18.2);
                 nn.setDesiredOutput(0, 6.1);
-                nn.run();
+                nn.learn();
                 //3
                 nn.setInputs(0, 22);
                 nn.setInputs(1, 154);
@@ -59,7 +59,7 @@ namespace Team_G_BackPropagation
                 nn.setInputs(5, 25.2);
                 nn.setInputs(6, 16.6);
                 nn.setDesiredOutput(0, 25.3);
-                nn.run();
+                nn.learn();
                 //4
                 nn.setInputs(0, 26);
                 nn.setInputs(1, 184.75);
@@ -69,7 +69,7 @@ namespace Team_G_BackPropagation
                 nn.setInputs(5, 29.4);
                 nn.setInputs(6, 18.2);
                 nn.setDesiredOutput(0, 10.4);
-                nn.run();
+                nn.learn();
                 //5
                 nn.setInputs(0, 24);
                 nn.setInputs(1, 184.25);
@@ -79,7 +79,7 @@ namespace Team_G_BackPropagation
                 nn.setInputs(5, 27.7);
                 nn.setInputs(6, 17.7);
                 nn.setDesiredOutput(0, 28.7);
-                nn.run();
+                nn.learn();
                 //6
                 nn.setInputs(0, 24);
                 nn.setInputs(1, 210.25);
@@ -89,7 +89,7 @@ namespace Team_G_BackPropagation
                 nn.setInputs(5, 30.6);
                 nn.setInputs(6, 18.8);
                 nn.setDesiredOutput(0, 20.9);
-                nn.run();
+                nn.learn();
                 //7
                 nn.setInputs(0, 26);
                 nn.setInputs(1, 181);
@@ -99,7 +99,7 @@ namespace Team_G_BackPropagation
                 nn.setInputs(5, 27.8);
                 nn.setInputs(6, 17.7);
                 nn.setDesiredOutput(0, 19.2);
-                nn.run();
+                nn.learn();
                 //8
                 nn.setInputs(0, 25);
                 nn.setInputs(1, 176);
@@ -109,7 +109,7 @@ namespace Team_G_BackPropagation
                 nn.setInputs(5, 29);
                 nn.setInputs(6, 18.8);
                 nn.setDesiredOutput(0, 12.4);
-                nn.run();
+                nn.learn();
                 //9
                 nn.setInputs(0, 25);
                 nn.setInputs(1, 191);
@@ -119,7 +119,7 @@ namespace Team_G_BackPropagation
                 nn.setInputs(5, 31.1);
                 nn.setInputs(6, 18.2);
                 nn.setDesiredOutput(0, 4.1);
-                nn.run();
+                nn.learn();
                 //10
                 nn.setInputs(0, 23);
                 nn.setInputs(1, 198.25);
@@ -129,7 +129,7 @@ namespace Team_G_BackPropagation
                 nn.setInputs(5, 30);
                 nn.setInputs(6, 19.2);
                 nn.setDesiredOutput(0, 11.7);
-                nn.run();
+                nn.learn();
             }
         }
 
