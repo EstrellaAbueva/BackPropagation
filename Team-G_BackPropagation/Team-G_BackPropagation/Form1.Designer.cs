@@ -51,7 +51,11 @@
             this.label10 = new System.Windows.Forms.Label();
             this.forearm = new System.Windows.Forms.TextBox();
             this.wrist = new System.Windows.Forms.TextBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.chooseFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // train
@@ -258,6 +262,28 @@
             this.wrist.TabIndex = 22;
             this.wrist.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.chooseFileToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(375, 24);
+            this.menuStrip1.TabIndex = 23;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
+            // 
+            // chooseFileToolStripMenuItem
+            // 
+            this.chooseFileToolStripMenuItem.Name = "chooseFileToolStripMenuItem";
+            this.chooseFileToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
+            this.chooseFileToolStripMenuItem.Text = "Choose File";
+            this.chooseFileToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -285,9 +311,13 @@
             this.Controls.Add(this.epochs);
             this.Controls.Add(this.test);
             this.Controls.Add(this.train);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Team-G_BackPropagation";
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -317,6 +347,9 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox thigh;
         private System.Windows.Forms.TextBox abdomen;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem chooseFileToolStripMenuItem;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 
