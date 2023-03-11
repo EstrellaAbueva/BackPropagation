@@ -193,6 +193,95 @@ namespace Team_G_BackPropagation
                 nn.setInputs(4, 3);
                 nn.setDesiredOutput(0, 279000);
                 nn.learn();
+
+                //21 trash
+                nn.setInputs(0, 4);
+                nn.setInputs(1, 1);
+                nn.setInputs(2, 1111);
+                nn.setInputs(3, 123);
+                nn.setInputs(4, 3);
+                nn.setDesiredOutput(0, 12345);
+                nn.learn();
+                //22 trash
+                nn.setInputs(0, 1);
+                nn.setInputs(1, 1);
+                nn.setInputs(2, 9872);
+                nn.setInputs(3, 123421);
+                nn.setInputs(4, 3);
+                nn.setDesiredOutput(0, 9999999);
+                nn.learn();
+
+                //23 trash
+                nn.setInputs(0, 7);
+                nn.setInputs(1, 1.2);
+                nn.setInputs(2, 1111);
+                nn.setInputs(3, 1231);
+                nn.setInputs(4, 1);
+                nn.setDesiredOutput(0, 45123);
+                nn.learn();
+
+                //24 trash
+                nn.setInputs(0, 3);
+                nn.setInputs(1, 4.2);
+                nn.setInputs(2, 1211);
+                nn.setInputs(3, 9876);
+                nn.setInputs(4, 4);
+                nn.setDesiredOutput(0, 27123);
+                nn.learn();
+
+                //25 trash
+                nn.setInputs(0, 7);
+                nn.setInputs(1, 1.2);
+                nn.setInputs(2, 12376);
+                nn.setInputs(3, 1231);
+                nn.setInputs(4, 1);
+                nn.setDesiredOutput(0, 2507863);
+                nn.learn();
+
+                //26 trash
+                nn.setInputs(0, 3);
+                nn.setInputs(1, 4.2);
+                nn.setInputs(2, 1154);
+                nn.setInputs(3, 4327);
+                nn.setInputs(4, 1);
+                nn.setDesiredOutput(0, 789456);
+                nn.learn();
+
+                //27 trash
+                nn.setInputs(0, 1);
+                nn.setInputs(1, 1.2);
+                nn.setInputs(2, 1000);
+                nn.setInputs(3, 9806);
+                nn.setInputs(4, 1);
+                nn.setDesiredOutput(0, 274123);
+                nn.learn();
+
+                //28 trash
+                nn.setInputs(0, 1);
+                nn.setInputs(1, 1.2);
+                nn.setInputs(2, 12376);
+                nn.setInputs(3, 1231);
+                nn.setInputs(4, 3);
+                nn.setDesiredOutput(0, 457891);
+                nn.learn();
+
+                //29 trash
+                nn.setInputs(0, 3);
+                nn.setInputs(1, 1.27);
+                nn.setInputs(2, 1154);
+                nn.setInputs(3, 4327);
+                nn.setInputs(4, 4);
+                nn.setDesiredOutput(0, 2500);
+                nn.learn();
+
+                //30 trash
+                nn.setInputs(0, 3);
+                nn.setInputs(1, 1.27);
+                nn.setInputs(2, 10004);
+                nn.setInputs(3, 6000);
+                nn.setInputs(4, 4);
+                nn.setDesiredOutput(0, 35000);
+                nn.learn();
             }
         }
 
