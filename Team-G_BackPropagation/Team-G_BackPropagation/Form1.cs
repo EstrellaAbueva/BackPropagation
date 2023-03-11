@@ -19,14 +19,9 @@ namespace Team_G_BackPropagation
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void create_Click(object sender, EventArgs e)
         {
-            nn = new NeuralNet(5, 0, 1);
+            nn = new NeuralNet(5, 6, 1);
         }
 
         private void train_Click(object sender, EventArgs e)
@@ -193,7 +188,98 @@ namespace Team_G_BackPropagation
                 nn.setInputs(4, 3);
                 nn.setDesiredOutput(0, 279000);
                 nn.learn();
-                //21 trash
+
+                //21
+                nn.setInputs(0, 3);
+                nn.setInputs(1, 1);
+                nn.setInputs(2, 1752);
+                nn.setInputs(3, 14626);
+                nn.setInputs(4, 3);
+                nn.setDesiredOutput(0, 249000);
+                nn.learn();
+
+                //22
+                nn.setInputs(0, 3);
+                nn.setInputs(1, 1.5);
+                nn.setInputs(2, 1450);
+                nn.setInputs(3, 9477);
+                nn.setInputs(4, 4);
+                nn.setDesiredOutput(0, 240000);
+                nn.learn();
+
+                //23
+                nn.setInputs(0, 3);
+                nn.setInputs(1, 1.75);
+                nn.setInputs(2, 1930);
+                nn.setInputs(3, 6360);
+                nn.setInputs(4, 3);
+                nn.setDesiredOutput(0, 536751);
+                nn.learn();
+
+                //24
+                nn.setInputs(0, 3);
+                nn.setInputs(1, 3);
+                nn.setInputs(2, 3740);
+                nn.setInputs(3, 39640);
+                nn.setInputs(4, 3);
+                nn.setDesiredOutput(0, 789000);
+                nn.learn();
+
+                //25
+                nn.setInputs(0, 3);
+                nn.setInputs(1, 1);
+                nn.setInputs(2, 980);
+                nn.setInputs(3, 7606);
+                nn.setInputs(4, 3);
+                nn.setDesiredOutput(0, 221000);
+                nn.learn();
+
+                //26
+                nn.setInputs(0, 2);
+                nn.setInputs(1, 2.5);
+                nn.setInputs(2, 2560);
+                nn.setInputs(3, 2500);
+                nn.setInputs(4, 3);
+                nn.setDesiredOutput(0, 780000);
+                nn.learn();
+
+                //27
+                nn.setInputs(0, 4);
+                nn.setInputs(1, 2.5);
+                nn.setInputs(2, 2460);
+                nn.setInputs(3, 8029);
+                nn.setInputs(4, 5);
+                nn.setDesiredOutput(0, 638250);
+                nn.learn();
+
+                //28
+                nn.setInputs(0, 3);
+                nn.setInputs(1, 2.5);
+                nn.setInputs(2, 1700);
+                nn.setInputs(3, 6200);
+                nn.setInputs(4, 3);
+                nn.setDesiredOutput(0, 262000);
+                nn.learn();
+
+                //29
+                nn.setInputs(0, 2);
+                nn.setInputs(1, 1);
+                nn.setInputs(2, 1640);
+                nn.setInputs(3, 14100);
+                nn.setInputs(4, 4);
+                nn.setDesiredOutput(0, 500000);
+                nn.learn();
+
+                //30
+                nn.setInputs(0, 2);
+                nn.setInputs(1, 1);
+                nn.setInputs(2, 960);
+                nn.setInputs(3, 5150);
+                nn.setInputs(4, 5);
+                nn.setDesiredOutput(0, 267500);
+                nn.learn();
+
+                //31 trash
                 nn.setInputs(0, 4);
                 nn.setInputs(1, 1);
                 nn.setInputs(2, 1111);
@@ -201,7 +287,7 @@ namespace Team_G_BackPropagation
                 nn.setInputs(4, 3);
                 nn.setDesiredOutput(0, 12345);
                 nn.learn();
-                //22 trash
+                //32 trash
                 nn.setInputs(0, 1);
                 nn.setInputs(1, 1);
                 nn.setInputs(2, 9872);
@@ -209,7 +295,8 @@ namespace Team_G_BackPropagation
                 nn.setInputs(4, 3);
                 nn.setDesiredOutput(0, 9999999);
                 nn.learn();
-                //23 trash
+
+                //33 trash
                 nn.setInputs(0, 7);
                 nn.setInputs(1, 1.2);
                 nn.setInputs(2, 1111);
@@ -217,7 +304,8 @@ namespace Team_G_BackPropagation
                 nn.setInputs(4, 1);
                 nn.setDesiredOutput(0, 45123);
                 nn.learn();
-                //24 trash
+
+                //34 trash
                 nn.setInputs(0, 3);
                 nn.setInputs(1, 4.2);
                 nn.setInputs(2, 1211);
@@ -225,7 +313,8 @@ namespace Team_G_BackPropagation
                 nn.setInputs(4, 4);
                 nn.setDesiredOutput(0, 27123);
                 nn.learn();
-                //25 trash
+
+                //35 trash
                 nn.setInputs(0, 7);
                 nn.setInputs(1, 1.2);
                 nn.setInputs(2, 12376);
@@ -233,7 +322,8 @@ namespace Team_G_BackPropagation
                 nn.setInputs(4, 1);
                 nn.setDesiredOutput(0, 2507863);
                 nn.learn();
-                //26 trash
+
+                //36 trash
                 nn.setInputs(0, 3);
                 nn.setInputs(1, 4.2);
                 nn.setInputs(2, 1154);
@@ -241,7 +331,8 @@ namespace Team_G_BackPropagation
                 nn.setInputs(4, 1);
                 nn.setDesiredOutput(0, 789456);
                 nn.learn();
-                //27 trash
+
+                //37 trash
                 nn.setInputs(0, 1);
                 nn.setInputs(1, 1.2);
                 nn.setInputs(2, 1000);
@@ -249,7 +340,8 @@ namespace Team_G_BackPropagation
                 nn.setInputs(4, 1);
                 nn.setDesiredOutput(0, 274123);
                 nn.learn();
-                //28 trash
+
+                //38 trash
                 nn.setInputs(0, 1);
                 nn.setInputs(1, 1.2);
                 nn.setInputs(2, 12376);
@@ -257,7 +349,8 @@ namespace Team_G_BackPropagation
                 nn.setInputs(4, 3);
                 nn.setDesiredOutput(0, 457891);
                 nn.learn();
-                //29 trash
+
+                //39 trash
                 nn.setInputs(0, 3);
                 nn.setInputs(1, 1.27);
                 nn.setInputs(2, 1154);
@@ -265,7 +358,8 @@ namespace Team_G_BackPropagation
                 nn.setInputs(4, 4);
                 nn.setDesiredOutput(0, 2500);
                 nn.learn();
-                //30 trash
+
+                //40 trash
                 nn.setInputs(0, 3);
                 nn.setInputs(1, 1.27);
                 nn.setInputs(2, 10004);
@@ -312,11 +406,6 @@ namespace Team_G_BackPropagation
             lot.Text = "";
             condition.Text = "";
             output.Text = "";
-        }
-
-        private void condition_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
