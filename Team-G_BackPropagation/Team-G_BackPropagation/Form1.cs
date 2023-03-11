@@ -21,11 +21,13 @@ namespace Team_G_BackPropagation
 
         private void create_Click(object sender, EventArgs e)
         {
-            nn = new NeuralNet(7, 1, 1);
+            
         }
 
         private void train_Click(object sender, EventArgs e)
         {
+            nn = new NeuralNet(7, 1, 1);
+
             for (int i = 0; i < Convert.ToInt32(epochs.Text); i++)
             {
                 //1
@@ -69,7 +71,7 @@ namespace Team_G_BackPropagation
                 nn.setDesiredOutput(0, 10.4);
                 nn.run();
                 //5
-                nn.setInputs(0, 27);
+                nn.setInputs(0, 24);
                 nn.setInputs(1, 184.25);
                 nn.setInputs(2, 34.4);
                 nn.setInputs(3, 100);
@@ -77,6 +79,56 @@ namespace Team_G_BackPropagation
                 nn.setInputs(5, 27.7);
                 nn.setInputs(6, 17.7);
                 nn.setDesiredOutput(0, 28.7);
+                nn.run();
+                //6
+                nn.setInputs(0, 24);
+                nn.setInputs(1, 210.25);
+                nn.setInputs(2, 39);
+                nn.setInputs(3, 94.4);
+                nn.setInputs(4, 66);
+                nn.setInputs(5, 30.6);
+                nn.setInputs(6, 18.8);
+                nn.setDesiredOutput(0, 20.9);
+                nn.run();
+                //7
+                nn.setInputs(0, 26);
+                nn.setInputs(1, 181);
+                nn.setInputs(2, 36.4);
+                nn.setInputs(3, 90.7);
+                nn.setInputs(4, 58.4);
+                nn.setInputs(5, 27.8);
+                nn.setInputs(6, 17.7);
+                nn.setDesiredOutput(0, 19.2);
+                nn.run();
+                //8
+                nn.setInputs(0, 25);
+                nn.setInputs(1, 176);
+                nn.setInputs(2, 37.8);
+                nn.setInputs(3, 88.5);
+                nn.setInputs(4, 60);
+                nn.setInputs(5, 29);
+                nn.setInputs(6, 18.8);
+                nn.setDesiredOutput(0, 12.4);
+                nn.run();
+                //9
+                nn.setInputs(0, 25);
+                nn.setInputs(1, 191);
+                nn.setInputs(2, 38.1);
+                nn.setInputs(3, 82.5);
+                nn.setInputs(4, 62.9);
+                nn.setInputs(5, 31.1);
+                nn.setInputs(6, 18.2);
+                nn.setDesiredOutput(0, 4.1);
+                nn.run();
+                //10
+                nn.setInputs(0, 23);
+                nn.setInputs(1, 198.25);
+                nn.setInputs(2, 42.1);
+                nn.setInputs(3, 88.6);
+                nn.setInputs(4, 63.1);
+                nn.setInputs(5, 30);
+                nn.setInputs(6, 19.2);
+                nn.setDesiredOutput(0, 11.7);
                 nn.run();
             }
         }
@@ -114,6 +166,11 @@ namespace Team_G_BackPropagation
         }
 
         private void bathroom_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
         {
 
         }
