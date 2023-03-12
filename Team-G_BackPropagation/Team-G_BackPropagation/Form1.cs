@@ -21,11 +21,6 @@ namespace Team_G_BackPropagation
             InitializeComponent();
         }
 
-        private void create_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void train_Click(object sender, EventArgs e)
         {
 
@@ -74,7 +69,7 @@ namespace Team_G_BackPropagation
             nn.setInputs(6, Convert.ToDouble(wrist.Text));
             nn.run();
 
-            output.Text = (nn.getOuputData(0)).ToString();
+            output.Text = (nn.getOuputData(0) * 19.15079).ToString();
         }
 
         private void clear_Click(object sender, EventArgs e)
@@ -90,24 +85,9 @@ namespace Team_G_BackPropagation
             output.Text = "";
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bathroom_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
             openFileDialog1.ShowDialog();
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
